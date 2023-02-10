@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -almf
+ls -almp
