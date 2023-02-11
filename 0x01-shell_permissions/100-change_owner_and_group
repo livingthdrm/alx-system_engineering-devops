@@ -1,2 +1,2 @@
 #!/bin/insert
-chown vincent * | chgrp staff *
+chown vincent:staff *
