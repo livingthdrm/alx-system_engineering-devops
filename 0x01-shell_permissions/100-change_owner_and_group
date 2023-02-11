@@ -1,2 +1,2 @@
-#!/bin/insert
+#!/bin/bash
 chown vincent:staff *
