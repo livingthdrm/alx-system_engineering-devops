@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(IFS=:; set -- $PATH; echo $#)
+echo $(printf $PATH | tr ":" "\n" | wc -w)
