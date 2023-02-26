@@ -12,4 +12,6 @@ This is an indepth analysis of shell expansions
 
 6. A script that lists all local variables, environment variables and functions
 
-7. A script that creates a local variable 
+7. A script that creates a local variable
+
+8. A script that creates a global variable 
