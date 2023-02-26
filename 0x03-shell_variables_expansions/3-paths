@@ -1,2 +1,2 @@
 #!/bin/bash
-COUNT=$PATH
+echo $(IFS=:; set -- $PATH; echo $#)
