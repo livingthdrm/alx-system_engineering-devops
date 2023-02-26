@@ -18,4 +18,6 @@ This is an indepth analysis of shell expansions
 
 9. A script that performs arithmetic
 
-10. A script that divides two variables 
+10. A script that divides two variables
+
+11. Arithmetic using exponents in bash 
