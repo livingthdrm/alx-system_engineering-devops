@@ -20,4 +20,6 @@ This is an indepth analysis of shell expansions
 
 10. A script that divides two variables
 
-11. Arithmetic using exponents in bash 
+11. Arithmetic using exponents in bash
+
+12. Binary to decimal conversion 
