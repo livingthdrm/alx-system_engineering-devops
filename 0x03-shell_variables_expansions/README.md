@@ -16,4 +16,6 @@ This is an indepth analysis of shell expansions
 
 8. A script that creates a global variable
 
-9. A script that performs arithmetic 
+9. A script that performs arithmetic
+
+10. A script that divides two variables 
