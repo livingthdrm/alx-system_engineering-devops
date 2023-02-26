@@ -8,4 +8,6 @@ This is an indepth analysis of shell expansions
 
 4. A script that counts the number of directories in PATH
 
-5. A script that lists global variables 
+5. A script that lists global variables
+
+6. A script that lists all local variables, environment variables and functions 
