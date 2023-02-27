@@ -28,4 +28,10 @@ This is an indepth analysis of shell expansions
 
 14. Print a number with 2 decimal places
 
-15. Convert a decimal number to hexadecimal 
+15. Convert a decimal number to hexadecimal
+
+16. Encode and decode text using rot13 encryption
+
+17. Script that prints every other line from the input, starting with the first line
+
+18. Script that adds two numbers with different number systems 
