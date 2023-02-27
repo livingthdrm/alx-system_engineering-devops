@@ -22,4 +22,6 @@ This is an indepth analysis of shell expansions
 
 11. Arithmetic using exponents in bash
 
-12. Binary to decimal conversion 
+12. Binary to decimal conversion
+
+13. A script that prints all possible combinations of two letters, except oo 
