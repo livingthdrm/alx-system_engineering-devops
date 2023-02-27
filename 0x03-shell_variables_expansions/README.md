@@ -26,4 +26,6 @@ This is an indepth analysis of shell expansions
 
 13. A script that prints all possible combinations of two letters, except oo
 
-14. Print a number with 2 decimal places 
+14. Print a number with 2 decimal places
+
+15. Convert a decimal number to hexadecimal 
