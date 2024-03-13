@@ -6,5 +6,5 @@
 
 for name in *;
 do
-	cut -d '-' -f 2- "$name"
+	ls | cut -d '-' -f 2-
 done
