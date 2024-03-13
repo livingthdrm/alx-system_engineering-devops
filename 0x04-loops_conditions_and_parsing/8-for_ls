@@ -6,5 +6,5 @@
 
 for _ in *;
 do
-	find . | cut -d '-' -f 2-
+	ls | cut -d'-' -f 2-
 done
