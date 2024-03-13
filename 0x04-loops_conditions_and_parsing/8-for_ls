@@ -4,8 +4,7 @@
 #In a list format
 #Where only the part of the name after the first dash is displayed (refer to the example)
 
-LIST=/
-for i in $LIST;
+for name in *;
 do
-	cut -b 3 "$i"
+	cut -d '-' -f 2- "$name"
 done
