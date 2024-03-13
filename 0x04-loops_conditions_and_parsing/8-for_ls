@@ -4,7 +4,7 @@
 #In a list format
 #Where only the part of the name after the first dash is displayed (refer to the example)
 
-for name in *;
+for _ in {1};
 do
-	ls | cut -d '-' -f 2-
+	find . | cut -d '-' -f 2-
 done
