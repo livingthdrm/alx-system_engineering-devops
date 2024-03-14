@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#use of kill
+
+while true;
+do
+	if kill -15 $$ ;
+	then
+		echo "I am invincible!!!"
+	else
+		echo "To infinity and beyond"
+	fi
+done
