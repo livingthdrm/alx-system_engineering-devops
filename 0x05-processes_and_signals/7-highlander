@@ -3,12 +3,8 @@
 
 while true;
 do
-	cmd="kill -15 $$"
-	if [ "$cmd" == true ] ;
-	then
-		echo "I am invincible!!!"
-	else
-		echo "To infinity and beyond"
-	fi
+	echo "To infinity and beyond" 
 	sleep 2
+
+	trap 'echo I am invincible!!!; sleep 2' SIGTERM
 done
