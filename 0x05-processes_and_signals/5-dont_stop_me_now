@@ -5,4 +5,4 @@
 
 file="4-to_infinity_and_beyond"
 pid=$(pgrep "$file")
-kill "$pid"
+kill -2 "$pid"
