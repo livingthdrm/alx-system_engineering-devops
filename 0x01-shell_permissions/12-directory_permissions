@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+(mkdir my_dir | sudo chmod 751 my_dir)
