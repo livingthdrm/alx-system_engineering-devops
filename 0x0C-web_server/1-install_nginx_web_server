@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 #A script to install nginx web server
 
-sudo apt-get -y install nginx
-
+apt-get update
+apt-get -y install nginx
 echo 'Hello World!' > /var/www/html/index.html
 sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
+service nginx start
