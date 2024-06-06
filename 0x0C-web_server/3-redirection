@@ -1,9 +1,23 @@
 #!/usr/bin/env bash
 #Configure your Nginx server so that /redirect_me
 #is redirecting to another page.
+# Configure Nginx to redirect /redirect_me to another page with a 301 Moved Permanently status code
 
-sudo apt-get update
-sudo apt-get -y install nginx
-sudo sed -i "/server_name _;/a \\\n    location \/redirect_me {\n        return 301 http://example.com;\n    }" /etc/nginx/sites-available/default
-sudo nginx -t
-sudo service  nginx reload
+# Ensure the Nginx is installed
+sudo apt update
+sudo apt install -y nginx
+
+# Enable Nginx service to start on boot
+sudo systemctl enable nginx
+
+# Create a backup of the original default Nginx configuration
+sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-available/default.bak
+
+# Use 'sed' to replace the server configuration with the desired redirect
+sed -i '/server {/a \\trewrite ^/redirect_me http://your-redirect-url.com permanent;' /etc/nginx/sites-available/default
+
+# Reload Nginx to apply the changes
+sudo systemctl reload nginx
+
+# Script end
+echo "Redirection configured for /redirect_me to http://your-redirect-url.com with a 301 Moved Permanently status code."
