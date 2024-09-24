@@ -1,16 +1,36 @@
-total 48
-drwxr-xr-x 2 root root 266 Feb 13 19:09 .
-drwxr-xr-x 6 root root 121 Feb 13 18:22 ..
--rwxrwxrwx 1 root root  32 Feb 13 18:39 0-hello_world
--rwxrwxrwx 1 root root  31 Feb 13 18:50 1-confused_smiley
--rwxrwxrwx 1 root root  28 Feb 13 18:51 2-hellofile
--rwxrwxrwx 1 root root  39 Feb 13 18:54 3-twofiles
--rwxrwxrwx 1 root root  35 Feb 13 18:55 4-lastlines
--rwxrwxrwx 1 root root  35 Feb 13 18:57 5-firstlines
--rwxrwxrwx 1 root root  40 Feb 13 19:02 6-third_line
--rwxrwxrwx 1 root root 115 Feb 13 19:05 7-file
--rwxrwxrwx 1 root root  36 Feb 13 19:08 8-cwd_state
--rw-r--r-- 1 root root  13 Feb 13 19:05 *\'Best School'*$?******:)
--rw-r--r-- 1 root root   0 Feb 13 19:09 ls_cwd_content
--rwxrwxrwx 1 root root  83 Feb 13 18:28 push
--rw-r--r-- 1 root root  29 Feb 13 18:26 README.md
+total 136
+drwxr-xr-x  2 root root 4096 Sep 23 18:48 .
+drwxr-xr-x 15 root root 4096 Sep 23 18:48 ..
+-rwxr-xr-x  1 root root   32 Sep 23 18:48 0-hello_world
+-rwxr-xr-x  1 root root   41 Sep 23 18:48 100-empty_casks
+-rwxr-xr-x  1 root root   92 Sep 23 18:48 101-gifs
+-rwxr-xr-x  1 root root   46 Sep 23 18:48 102-acrostic
+-rwxr-xr-x  1 root root   87 Sep 23 18:48 103-the_biggest_fan
+-rwxr-xr-x  1 root root   48 Sep 23 18:48 10-no_more_js
+-rwxr-xr-x  1 root root   47 Sep 23 18:48 11-directories
+-rwxr-xr-x  1 root root   31 Sep 23 18:48 12-newest_files
+-rwxr-xr-x  1 root root   27 Sep 23 18:48 13-unique
+-rwxr-xr-x  1 root root   34 Sep 23 18:48 14-findthatword
+-rwxr-xr-x  1 root root   36 Sep 23 18:48 15-countthatword
+-rwxr-xr-x  1 root root   39 Sep 23 18:48 16-whatsnext
+-rwxr-xr-x  1 root root   36 Sep 23 18:48 17-hidethisword
+-rwxr-xr-x  1 root root   53 Sep 23 18:48 18-letteronly
+-rwxr-xr-x  1 root root   25 Sep 23 18:48 19-AZ
+-rwxr-xr-x  1 root root   31 Sep 23 18:48 1-confused_smiley
+-rwxr-xr-x  1 root root   23 Sep 23 18:48 20-hiago
+-rwxr-xr-x  1 root root   16 Sep 23 18:48 21-reverse
+-rwxr-xr-x  1 root root   45 Sep 23 18:48 22-users_and_homes
+-rwxr-xr-x  1 root root   28 Sep 23 18:48 2-hellofile
+-rwxr-xr-x  1 root root   39 Sep 23 18:48 3-twofiles
+-rwxr-xr-x  1 root root   35 Sep 23 18:48 4-lastlines
+-rwxr-xr-x  1 root root   35 Sep 23 18:48 5-firstlines
+-rwxr-xr-x  1 root root   40 Sep 23 18:48 6-third_line
+-rwxr-xr-x  1 root root   87 Sep 23 18:48 7-file
+-rwxr-xr-x  1 root root   36 Sep 23 18:48 8-cwd_state
+-rwxr-xr-x  1 root root   37 Sep 23 18:48 9-duplicate_last_line
+-rw-r--r--  1 root root   12 Sep 23 18:48 \*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
+-rw-r--r--  1 root root  841 Sep 23 18:48 iacta
+-rw-r--r--  1 root root  167 Sep 23 18:48 list
+-rw-r--r--  1 root root    0 Sep 24 00:04 ls_cwd_content
+-rwxr-xr-x  1 root root   83 Sep 23 18:48 push
+-rw-r--r--  1 root root   29 Sep 23 18:48 README.md
